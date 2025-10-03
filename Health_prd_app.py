@@ -53,5 +53,6 @@ if st.button("Predict Health"):
     prediction_encoded = model.predict(final_input)
     orginal_prediction = label_encoder.inverse_transform(prediction_encoded)
 
-    st.success(f"Predicted Health Status: {orginal_prediction[0]}")
+    st.success(f"Predicted Health Status : {orginal_prediction[0]}")
+
 
