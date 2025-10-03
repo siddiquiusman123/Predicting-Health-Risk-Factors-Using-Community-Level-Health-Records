@@ -7,7 +7,7 @@ import streamlit as st
 
 dataset = pd.read_csv("health_data.csv")
 
-st.title("Health Prediction App")
+st.title("🏥Health Prediction App")
 
 # load The model , scalar , encoder
 
@@ -54,3 +54,4 @@ if st.button("Predict Health"):
     orginal_prediction = label_encoder.inverse_transform(prediction_encoded)
 
     st.success(f"Predicted Health Status: {orginal_prediction[0]}")
+
