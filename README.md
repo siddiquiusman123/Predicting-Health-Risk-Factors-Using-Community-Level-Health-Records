@@ -28,7 +28,7 @@ It is deployed as an interactive **Streamlit web application**, where users can 
 
 ## 🌐 Live Demo
 🔗 Click here to try the app  
-👉 [Health Risk Prediction App](https://your-streamlit-app-link.streamlit.app/)  
+👉 [Health Risk Prediction App](https://predicting-health-risk-factors-using-community-level-health-re.streamlit.app/)  
 
 ---
 
